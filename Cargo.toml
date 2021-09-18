@@ -1,0 +1,14 @@
+[package]
+name = "efm32hg-usbd"
+version = "0.1.0"
+edition = "2018"
+readme = "README.md"
+authors = ["Jordan Yelloz <jordan@yelloz.me>"]
+
+[dependencies]
+usb-device = "0.2"
+[dependencies.synopsys-usb-otg]
+path = "../synopsys-usb-otg"
+features = ["cortex-m", "fs", "efm32"]
+[dependencies.efm32hg-pac]
+path = "../efm32hg-pac"
