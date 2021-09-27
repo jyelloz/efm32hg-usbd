@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2018"
 readme = "README.md"
 authors = ["Jordan Yelloz <jordan@yelloz.me>"]
+license = "MIT"
 
 [dependencies]
 usb-device = "0.2"
