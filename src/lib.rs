@@ -5,7 +5,7 @@
 
 mod peripheral;
 
-/// Re-export of the EFM32HG PAC with additional metadata exposign the the
+/// Re-export of the EFM32HG PAC with additional metadata exposing the the
 /// Synopsys DWC core memory address.
 mod pac {
     pub use efm32hg_pac::*;
