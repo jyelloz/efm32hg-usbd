@@ -3,7 +3,7 @@ use crate::pac::{
     SynopsysUSB,
 };
 
-use synopsys_usb_otg::UsbPeripheral;
+pub use synopsys_usb_otg::UsbPeripheral;
 pub use synopsys_usb_otg::efm32::USB as USBCore;
 
 pub struct USB {

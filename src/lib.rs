@@ -19,5 +19,7 @@ mod pac {
 
 pub use peripheral::{
     USB,
+    USBCore,
     UsbBusType,
+    UsbPeripheral,
 };
